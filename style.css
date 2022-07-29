@@ -1,0 +1,81 @@
+#calculate {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 105vh;
+    overflow: hidden;
+    background-color: #00FF6C;
+}
+#containerparent {
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    gap: 2px;
+}
+#display {
+    grid-column: -1 / 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 5px;
+    font-size: 5.5em;
+    font-weight: initial;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,.2);
+    margin: 5px;
+}
+button {
+    margin: 1px;
+    border-radius: 5%;
+    font-weight: initial;
+    font-size: 2em;
+    color: black;
+}
+.operator {
+    background-color: gold;    
+}
+.operator:hover {
+    background-color: goldenrod;
+}
+.equals {
+    background-color: greenyellow;
+}
+.equals:hover {
+    background-color: goldenrod;
+}
+.number {
+    background-color: brown;
+}
+.number:hover {
+    background-color: azure;
+}
+.decimal {
+    background-color: brown;
+}
+.decimal:hover {
+    background-color: wheat;
+}
+.clear {
+    background-color: red;
+}
+.clear:hover {
+    background-color: royalblue;
+}
+.sign {
+    background-color: red;
+}
+.sign:hover {
+    background-color: white;
+}
+.percent {
+    background-color: brown;
+}
+.percent:hover {
+    background-color: white;
+}
